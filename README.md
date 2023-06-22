@@ -15,3 +15,9 @@ span
 html5 semantic tag (header,nav,section,aside,article,footer,figure, details,main,mark,time datetime)
 div 태그 이용해서 그룹짓기
 ```
+# 23/06/21~23/06/22
+```
+div, span,
+header, nav,footer, main, section, article, aside,
+ul, ou, li, dl, dt, dd
+```
