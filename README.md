@@ -16,6 +16,7 @@ html5 semantic tag (header,nav,section,aside,article,footer,figure, details,main
 div 태그 이용해서 그룹짓기
 ```
 # 23/06/21~23/06/22
+**Html5 semantic tag는 각 레이아웃 영역 의미에 맞게 사용해야 한다.**
 ```
 div, span,
 header, nav,footer, main, section, article, aside,
