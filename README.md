@@ -20,5 +20,10 @@ div 태그 이용해서 그룹짓기
 ```
 div, span,
 header, nav,footer, main, section, article, aside,
-ul, ou, li, dl, dt, dd
+ul, ol, li, dl, dt, dd
+```
+# 23/06/23
+```
+a href="" , 절대경로, 상대경로, ./ ../ a target="_blabk"
+임시경로 # , img src, address, ul, ol, ,li, dl, dt, dd, semantic tag
 ```
