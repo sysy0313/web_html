@@ -27,3 +27,7 @@ ul, ol, li, dl, dt, dd
 a href="" , 절대경로, 상대경로, ./ ../ a target="_blabk"
 임시경로 # , img src, address, ul, ol, ,li, dl, dt, dd, semantic tag
 ```
+# 23/06/26
+```
+img, figure, figcaption, video, table(th, tr, td) (thead,tbody,tfoot) (colspan,rowspan), (scope=”col”, scope=”row”)
+```
