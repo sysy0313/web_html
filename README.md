@@ -31,3 +31,11 @@ a href="" , 절대경로, 상대경로, ./ ../ a target="_blabk"
 ```
 img, figure, figcaption, video, table(th, tr, td) (thead,tbody,tfoot) (colspan,rowspan), (scope=”col”, scope=”row”)
 ```
+# 23/06/27
+```
+form, fieldset, legend,
+input (type: text, password, tel, url, email),radio, checkbox, select, option, optgroup, textarea
+ value, name, placeholder, id, label, checked, autofocus
+
+```
+
