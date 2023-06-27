@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>회원가입2</title>
+    <style>
+        table,th,td {border:1px solid black;}
+    </style>
+</head>
+<body>
+    <h1>회원가입</h1>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>가입양식</legend>
+            <div class="agree_all">
+                <label>
+                    <input type="checkbox" name="agree" value="a_all">모든 약관에 동의합니다.
+                </label>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">구분</th>
+                        <th scope="col">내용</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">아이디</th>
+                        <td>
+                            <input type="text" autofocus name="user_id" placeholder="영문소문자/숫자입력">
+                            *최대 12글자 제한
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">비밀번호</th>
+                        <td>
+                            <input type="password" name="user_pw" placeholder="아이디와 다르게 입력">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">주민등록번호</th>
+                        <td>
+                            <input type="text" name="regi_first" maxlength="6" placeholder="주민등록번호 앞 6자리">-
+                            <input type="password" name="regi_last" maxlength="7" placeholder="주민등록번호 뒤 7자리">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">성별</th>
+                        <td>
+                            남<input type="radio" name="gender" value="male">
+                            여<input type="radio" name="gender" value="female">
+                            공개안함
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">관심직종</th>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">휴대전화</th>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">이메일</th>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">인사말</th>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </fieldset>
+
+    </form>
+</body>
+</html>

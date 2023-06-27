@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>영수증</title>
+    <style>
+        table,th,td {border:1px solid black;}
+    </style>
+</head>
+<body>
+    <table>
+        <thead><!-- 제목행그룹 -->
+            <tr><!-- 행 -->
+                <th scope="col">상품(코드)</th><!-- 제목열 -->
+                <th scope="col">단가</th><!-- 제목열 -->
+                <th scope="col">수량</th><!-- 제목열 -->
+                <th scope="col">금액</th><!-- 제목열 -->
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <!-- 다른 행 기준 총 4개의 열이 
+                결과행에서는 2개의 열이 되므로
+                총액 열을 3칸 차지하도록 colspan=3 적용해서 3+1=>4 총 개수와 맞도록 설정 -->
+                <th scope="row" colspan="3">총액</th>
+                <!-- <td></td>
+                <td></td> -->
+                <td>3000원</td>
+            </tr>
+        </tfoot>
+        <tbody><!-- 내용행그룹 -->
+            <tr><!-- 내용1행 -->
+                <th scope="row">우유</th><!-- 제목열 -->
+                <td>1000</td><!-- 내용열 -->
+                <td>2</td><!-- 내용열 -->
+                <td>2000</td><!-- 내용열 -->
+            </tr>
+            <tr><!-- 내용2행 -->
+                <th scope="row">우유</th><!-- 제목열 -->
+                <td>1000</td><!-- 내용열 -->
+                <td>2</td><!-- 내용열 -->
+                <td>2000</td><!-- 내용열 -->
+            </tr>
+            <tr><!-- 내용3행 -->
+                <th scope="row">우유</th><!-- 제목열 -->
+                <td>1000</td><!-- 내용열 -->
+                <td>2</td><!-- 내용열 -->
+                <td>2000</td><!-- 내용열 -->
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
