@@ -38,4 +38,8 @@ input (type: text, password, tel, url, email),radio, checkbox, select, option, o
  value, name, placeholder, id, label, checked, autofocus
 
 ```
+# 23/06/28
+```
+선택자 (태그선택자, 클래스/아이디 선택자, 자식 선택자, 자손 선택자, 인접형제 선택자, 형제선택자, 그룹선택자)
+```
 
