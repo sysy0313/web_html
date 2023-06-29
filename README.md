@@ -42,4 +42,20 @@ input (type: text, password, tel, url, email),radio, checkbox, select, option, o
 ```
 선택자 (태그선택자, 클래스/아이디 선택자, 자식 선택자, 자손 선택자, 인접형제 선택자, 형제선택자, 그룹선택자)
 ```
-
+# 23/06/29
+```
+- margin:0 auto; 가운데정렬
+- width:0000px; 가로크기
+- height:0000px;  세로크기
+- border:1px solid #bcbcbc; 테두리
+- float:left; float:right; 형제끼리 좌우로 정렬
+- padding:0 0 0 0; 안쪽여백 padding-left, padding-top 등으로 작성하기도 함.
+- font-size:0.0rem; 글자크기
+- font-weight:500; 굵기(웹폰트링크의 숫자 확인)
+- letter-spacing:-0.02em; 자간
+- line-height:00px; 행간
+- color:#000000; 색
+- background-image:url(./위치); 배경이미지
+- background-repeat:no-repeat; 배경이미지 반복
+- background-position:00% 00%; (x축y축) 배경이미지 위치
+```
