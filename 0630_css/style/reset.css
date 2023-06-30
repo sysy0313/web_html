@@ -1,0 +1,39 @@
+* {box-sizing:border-box;}
+/* 웹글꼴 */
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap');
+/* 로컬글꼴 font-face */
+/* font-face로 연결하려는 로컬글꼴의 글꼴명, 글꼴의 경로를 먼저 작성해야 한다! */
+@font-face {
+    font-family:'중학생'; /* 글꼴명 지정 */
+    src:url(../fonts/student.ttf); /* 글꼴경로 지정 */
+}
+@font-face{
+    font-family:'jeju';
+    src:url(../fonts/JejuHallasan.ttf);
+}
+@font-face {
+    font-family:'무럭';
+    src:url(../fonts/muruk.ttf);
+}
+@font-face {
+    font-family:'다경';
+    src:url(../fonts/dagyeong.ttf);
+}
+/* reset.css */
+html,body,
+h1,h2,h3,h4,h5,h6,p,blockquote,address,
+span,strong,em,q,sub,sup,del,s,a,img,
+div,header,nav,aside,main,footer,
+article,figure,figcaption,section,video,
+table,thead,tbody,tfoot,tr,th,td,ul,ol,li,dl,dt,dd,
+form,fieldset,legend,input,select,option,button,label,textarea {
+    font-family:'다경';
+    margin:0; padding:0; line-height:1.0;
+    font-size:16px; font-style:normal; font-weight:normal;
+    text-align:left; text-decoration:none;
+}
+table,tr,th,td {border-collapse:collapse;}
+ul,ol,li {list-style:none;}
+a {color:#000;}
+input {outline:none; border:0;}
