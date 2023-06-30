@@ -61,5 +61,6 @@ input (type: text, password, tel, url, email),radio, checkbox, select, option, o
 ```
 # 23/06/30
 ```
-웹폰트, letter-spacing,line-height,word-spaicing, white-space, display,block 요소 특징, inlilne요소 특징, width, height, padding, margin,border-radius, text-align:center; float, clear
+웹폰트, letter-spacing,line-height,word-spaicing, white-space, display,
+block 요소 특징, inlilne요소 특징, width, height, padding, margin,border-radius, text-align:center; float, clear
 ```
