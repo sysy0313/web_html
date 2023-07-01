@@ -64,3 +64,10 @@ input (type: text, password, tel, url, email),radio, checkbox, select, option, o
 웹폰트, letter-spacing,line-height,word-spaicing, white-space, display,
 block 요소 특징, inlilne요소 특징, width, height, padding, margin,border-radius, text-align:center; float, clear
 ```
+# 23/07/01
+```
+figma--
+TRL ALT  G 프레임으로 묶기
+SHIFT A 오토프레임
+section 태그
+```
