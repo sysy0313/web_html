@@ -1,0 +1,123 @@
+/* header */
+body {width:1200px; margin:0 auto;}
+header {background-color:beige;
+    height:92px;
+} 
+header h1 {
+    background-color:lightpink; 
+    width:60px; height:70px;
+    padding:11px 0 0 20px;
+    float:left;
+}   
+header h1 a {}
+header h1 a img {width:60px; height:70px}
+/* header-nav */
+header nav {
+    float:left;
+}
+header nav ul {float:left; padding-left:325px; padding-top:39px;}
+header nav ul li {float:left; padding-right:40px;
+    }
+header nav ul li a {font-size:1.2rem;}
+header nav ul li a span {font-size:1.2rem; color:#36B4E5;}
+/*header-lnb */
+header .lnb {
+    float:right; padding:39px 20px 0 0;  
+    
+}
+header .lnb li {float:left;}
+header .lnb li a {font-size:1.2rem; padding-left:20px;}
+/* main */
+main {
+    background-color:wheat;
+
+}
+/* breadcrumbs */
+main .breadcrumbs_bg {
+    background-color:#f1f1f1;
+    height:58px;  
+}
+main .breadcrumbs_bg #breadcrumbs {float:right; padding:23px 20px 0 0;
+    }
+main .breadcrumbs_bg #breadcrumbs a {}
+main .breadcrumbs_bg #breadcrumbs em {background-color:tomato;
+    font-weight:700;}
+/* con_1 경영이념 */
+main .con_1 {background-color:pink; padding:70px 0;}
+main .con_1 h1 {
+    font-size:2rem; letter-spacing:-0.02em; text-align:center; 
+}
+main .con_1 p {
+    font-size:1.2rem; letter-spacing:-0.02em; 
+    text-align:center; padding-top:40px}
+/* con_2 */
+main .con_2_bg {background-color:#f1f1f1;
+    padding:70px 0;}
+main .con_2_bg .con_2 {}
+main .con_2_bg .con_2 p {font-size:1.2rem; letter-spacing:-0.02em; line-height:35px; text-align:center;}
+/* con_3 비전 */
+main .con_3 {background-color:pink;
+    padding:70px 0 20px 0;}
+main .con_3 h2 {text-align:center; font-size:2rem; letter-spacing:-0.02em; font-weight:500; color:#36B4E5;
+    padding-bottom:50px;
+}
+main .con_3 p {
+    text-align:center; font-size:1.7rem; 
+    letter-spacing:-0.02em; line-height:45px;
+    padding-bottom:50px;
+
+}
+/* con_4 goal */
+main .con_4_bg {background-color:#f1f1f1;
+    padding:70px 0;}
+main .con_4_bg .con_4 {}
+main .con_4_bg .con_4 h2 {
+    font-size:2rem; text-align:center; clear:both; 
+}
+main .con_4_bg .con_4 .goal {
+    padding-left:240px;
+}
+main .con_4_bg .con_4 .goal li {
+    background-color:aquamarine;
+    width:250px; height:250px; border-radius:50%;
+    text-align:center;  margin-right:-15px; float:left;
+    font-size:2rem;
+}
+/* con_4 strategy */
+main .con_4_bg .con_4 .strategy {
+    background-color:peachpuff;
+    padding:0 170px; clear:both;
+}
+main .con_4_bg .con_4 .strategy li {
+    background-color:pink;
+    float:left;
+    width:180px; height:180px; border-radius:50%;
+    margin-right:-10px;
+
+}
+main .con_4_bg .con_4 .strategy li h3 {background-color:lightcoral;
+    text-align:center; 
+    font-size:1.2rem; font-weight:500;
+}
+main .con_4_bg .con_4 .strategy li p {text-align:center;}
+/* footer */
+footer {clear:both; margin-top:70px}
+/* f-top */
+footer .f_top {background-color:olivedrab;
+    width:1200px; height:60px}
+footer .f_top .fnb {background-color:aquamarine;
+    float:left;
+}
+footer .f_top .fnb li {float:left; padding:23px 30px 0 20px;}
+footer .f_top .fnb li a {}
+footer .f_top .fnb_right {
+    float:right;} 
+footer .f_top .fnb_right li { 
+    float:left; padding:23px 20px 0 0;
+    border:1px solid #aaa;
+}
+footer .f_top .fnb_right li a {}
+/* f-btm */
+footer .f_btm {}
+footer .f_btm address {}
+footer .f_btm p {}
