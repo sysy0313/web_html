@@ -71,3 +71,7 @@ TRL ALT  G 프레임으로 묶기
 SHIFT A 오토프레임
 section 태그
 ```
+# 23/07/03
+```
+class=”active” , 태그:last-child,  태그:nth-child(숫자), 글자없는 span css,
+```
