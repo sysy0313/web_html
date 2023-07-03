@@ -1,0 +1,133 @@
+/* header */
+header {
+    width:1200px; height:92px; margin:0 auto;
+} 
+header h1 {
+    width:60px; height:70px;
+    margin:11px 0 0 20px;
+    float:left;
+}   
+header h1 a {}
+header h1 a img {width:100%}
+/* header-nav */
+header nav {
+    float:left;
+}
+header nav ul {float:left; margin-left:325px; margin-top:39px;}
+
+header nav ul li {
+    float:left; }
+header nav ul li a {font-size:1.2rem; padding-right:40px;}
+header nav ul li:last-child a {padding-right:0;}
+header nav ul .active a {font-size:1.2rem; color:#36B4E5;}
+/*header-lnb */
+header .lnb {
+    float:right; margin:39px 20px 0 0;  
+    
+}
+header .lnb li {float:left; padding-left:20px;}
+header .lnb li a {font-size:1.2rem; }
+header .lnb li span {
+    width:1px; height:13px; background-color:#aaa;
+    display:block; margin-top:3px;
+}
+/* main */
+main {}
+/* breadcrumbs */
+main .breadcrumbs_bg {
+    background-color:#f1f1f1;
+}
+main .breadcrumbs_bg #breadcrumbs {
+    height:58px; width:1200px; margin:0 auto;
+    padding:23px 20px 0 0; text-align:right;
+    }
+main .breadcrumbs_bg #breadcrumbs a {}
+main .breadcrumbs_bg #breadcrumbs em {
+    font-weight:700;}
+/* con_1 경영이념 */
+main .con_1 {padding:70px 0; text-align:center;}
+main .con_1 h1 {
+    font-size:2rem; letter-spacing:-0.02em; padding-bottom:40px;
+}
+main .con_1 p {
+    font-size:1.2rem; letter-spacing:-0.02em; 
+    }
+/* con_2 */
+main .con_2_bg {background-color:#f1f1f1;}
+main .con_2_bg .con_2 {padding:70px 0; text-align:center;}
+main .con_2_bg .con_2 p {font-size:1.2rem; letter-spacing:-0.02em; line-height:35px; }
+/* con_3 비전 */
+main .con_3 {
+    padding:70px 0;}
+main .con_3 h2 {font-size:2rem; letter-spacing:-0.02em; font-weight:500; color:#36B4E5;
+    padding-bottom:50px; text-align:center;
+}
+main .con_3 p {
+    text-align:center; font-size:1.7rem; 
+    letter-spacing:-0.02em; line-height:45px;
+}
+main .con_3 p:nth-child(2) {padding-bottom:50px;}
+/* con_4 goal */
+main .con_4_bg {background-color:#f1f1f1;
+    padding:70px 0;}
+main .con_4_bg .con_4 {width:1200px; margin:0 auto;}
+main .con_4_bg .con_4 h2 {
+    font-size:2rem; text-align:center; clear:both;
+    margin-bottom:60px;
+}
+main .con_4_bg .con_4 .goal {
+    margin-left:240px; height:250px;
+}
+main .con_4_bg .con_4 .goal li {
+    background-color:#fff;
+    width:250px; height:250px; border-radius:50%;
+    text-align:center;  margin-right:-15px; float:left;
+    font-size:2rem; padding-top:113px;
+    margin-bottom:60px;
+}
+main .con_4_bg .con_4 .goal li:first-child {background-color:#36b4e5;}
+main .con_4_bg .con_4 .goal li:last-child {background-color:#F3C300;}
+/* con_4 strategy */
+main .con_4_bg .con_4 .strategy {
+    margin:0 170px; clear:both; height:180px;
+}
+main .con_4_bg .con_4 .strategy li {
+    background-color:#fff;
+    float:left;
+    width:180px; height:180px; border-radius:50%;
+    margin-right:-10px; padding-top:57px;
+}
+main .con_4_bg .con_4 .strategy li h3 {
+    text-align:center; 
+    font-size:1.2rem; font-weight:500; margin-bottom:10px;
+}
+main .con_4_bg .con_4 .strategy li p {text-align:center;}
+/* footer */
+footer {width:1200px; margin:0 auto;}
+/* f-top */
+footer .f_top {
+    height:60px; padding:10px 20px;}
+footer .f_top .fnb {
+    float:left;
+}
+footer .f_top .fnb li {float:left; padding-top:13px;}
+footer .f_top .fnb li a {
+    padding-right:20px; font-size:1.2rem; letter-spacing:-0.02em;
+    font-weight:500;
+}
+footer .f_top .fnb li:last-child a {padding-right:0;}
+footer .f_top .fnb_right {
+    float:right;} 
+footer .f_top .fnb_right li { 
+    float:left;
+    border:1px solid #aaa; margin-right:10px;
+}
+footer .f_top .fnb_right li:last-child {margin-right:0;}
+footer .f_top .fnb_right li a {
+    padding:10px 20px; display:block; font-size:1.2rem; letter-spacing:-0.02em;
+}
+/* f-btm */
+footer .f_btm {padding:70px 20px;}
+footer .f_btm address {
+    font-size:1.2rem; letter-spacing:-0.02em; line-height:40px; margin-bottom:50px;}
+footer .f_btm p {font-size:1.2rem; letter-spacing:-0.02em;s}
