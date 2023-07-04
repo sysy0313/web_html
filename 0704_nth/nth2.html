@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>nth2</title>
+    <style>
+        /* 표 테두리 넣기 */
+        table,th,td {border-collapse:collapse; border:1px solid black; padding:10px}
+        /* 색상 넣기 */
+        #t thead tr th:nth-child(1) {background-color:yellow;}
+        #t tbody tr:nth-child(1) td:nth-child(2) {background-color:pink;}
+        #t tbody tr:nth-child(2) td:nth-child(1) {background-color:aqua;}
+        #t tbody tr:nth-child(3) td:nth-child(2) {background-color:lime;}
+    </style>
+</head>
+<body>
+    <table id="t">
+        <thead>
+            <tr>
+                <th scope="col">HTML5</th>
+                <th scope="col">CSS3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Header</td>
+                <td>nth-child</td>
+            </tr>
+            <tr>
+                <td>main</td>
+                <td>display</td>
+            </tr>
+            <tr>
+                <td>footer</td>
+                <td>border</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
