@@ -1,0 +1,162 @@
+/* header */
+header {
+    width:1200px; height:92px;
+    margin:0 auto;
+    }
+header h1 {
+    width:60px; height:70px; float:left; margin:11px 0 0 20px;
+    }/* img의 부모 */
+header h1 a {}
+header h1 a img {width:100%;}
+/* header-nav */
+header nav {
+    margin:39px 0 0 245px; float:left; 
+}
+header nav ul {}
+header nav ul li {
+    float:left;}
+header nav ul li a {padding-right:40px; font-size:1.2rem;}
+header nav ul li:last-child a {padding-right:0;}
+/* 활성화 페이지 기준 active class 선택자 작성위치 */
+header nav ul .active a {color:#36B4E5;}
+/*header-lnb */
+header .lnb {
+    float:right; margin:39px 20px 0 0;
+}
+header .lnb li {float:left;
+    margin-right:9px;}
+    /* 모든 li에 반복적으로 들어간 margin 또는 padding 값에서 마지막 여백값만 빼는 방법 */
+header .lnb li:last-child {margin-right:0;}
+header .lnb li a {
+    font-size:1.2rem; 
+}
+header .lnb li span {
+    width:1px; height:13px; background-color:#aaa;
+    display:block; margin-top:3px;
+}
+/* header 끝 */
+/* main*/
+main {}
+/* breadcrumbs */
+main .breadcrumbs_bg {
+    background-color:#f1f1f1;
+    border:1px solid #aaa; border-left:0; border-right:0;
+    }
+main .breadcrumbs_bg #breadcrumbs {
+    width:1200px; height:58px; margin:0 auto; padding:23px 20px 0 0;
+    text-align:right;
+    }
+    /* 정렬대상이 모두 인라인이고 한 방향 수평 정렬일 경우 정렬대상의 부모 요소한테 text-align을 사용한다. */
+main .breadcrumbs_bg #breadcrumbs a {}
+main .breadcrumbs_bg #breadcrumbs em {font-weight:700;}
+/* con_1 경영이념 */
+main .con_1 {
+    text-align:center;
+    width:1200px; padding: 70px 0; margin:0 auto; 
+}
+main .con_1 h1 {
+    font-size:2.074rem; font-weight:500; letter-spacing:-0.02em; 
+    margin-bottom:40px;
+}
+main .con_1 p {
+    font-size:1.2rem; letter-spacing:-0.02em; 
+}
+/* con_2 */
+main .con_2_bg {
+    background-color:#f1f1f1;
+}
+main .con_2_bg .con_2 {
+    width:1200px; margin:0 auto; padding:70px 0; text-align:center;
+}
+main .con_2_bg .con_2 p {
+    font-size:1.2rem; letter-spacing:-0.02em; line-height:35px;
+}
+/* con_3 비전 */
+main .con_3 {
+    width:1200px; margin:0 auto; padding:70px 0;
+    text-align:center; 
+}
+main .con_3 h2 {
+    font-size:2.074rem; font-weight:500; letter-spacing:-0.02em; color:#36B4E5; margin-bottom:50px;}
+main .con_3 h2+p {
+    font-size:1.728rem; letter-spacing:-0.02em; line-height:45px;
+    }
+main .con_3 p:nth-child(2) {margin-bottom:50px;}
+
+/* con_4 goal */
+main .con_4_bg {background-color:#f1f1f1;}
+main .con_4_bg .con_4 {
+    width:1200px; margin:0 auto; padding:70px 0;
+    text-align:center; 
+}
+main .con_4_bg .con_4 h2 {
+    margin-bottom:60px;
+    font-size:2.074rem; font-weight:500; letter-spacing:-0.02em;
+}
+main .con_4_bg .con_4 ul {}
+main .con_4_bg .con_4 ul li {}
+
+/* goal ul-li */
+main .con_4_bg .con_4 ul:nth-child(2) {}
+main .con_4_bg .con_4 ul:nth-child(2) li {
+    background-color:#fff;
+    width:250px; height:250px; border-radius:50%; line-height:250px;
+    display:inline-block; margin-right:-20px;
+    margin-bottom:60px;
+    font-size:2.074rem; letter-spacing:-0.02em;
+    box-shadow:0 0 10px rgba(0,0,0,0.15);
+}
+main .con_4_bg .con_4 ul:nth-child(2) li:nth-child(1) {background-color:#36B4E5;}
+main .con_4_bg .con_4 ul:nth-child(2) li:nth-child(3) {background-color:#F3C300; margin-right:0;}
+/* strategy ul-li */
+main .con_4_bg .con_4 ul:nth-child(4) {}
+main .con_4_bg .con_4 ul:nth-child(4) li {
+    background-color:#fff; width:180px; height:180px; border-radius:50%;
+    display:inline-block; margin-right:-15px; padding-top:57px;
+    /* box-shadow:X Y Blur color; */
+    box-shadow:0 0 10px rgba(0,0,0,0.15);
+}
+main .con_4_bg .con_4 ul:nth-child(4) li:last-child {margin-right:0;}
+main .con_4_bg .con_4 ul li h3 {
+    font-size:1.2rem; letter-spacing:-0.02em; font-weight:500;
+    margin-bottom:5px;
+}
+main .con_4_bg .con_4 ul li p {
+    letter-spacing:-0.02em; line-height:25px;}
+/* main 끝 */
+/* footer */
+footer {}
+/* f-top */
+footer .f_top {
+    height:60px; width:1200px; margin:0 auto;
+    padding-top:10px; 
+}
+footer .f_top .fnb {
+    float:left; margin-top:11px; margin-left:20px
+}
+footer .f_top .fnb li {float:left; margin-right:30px;}
+footer .f_top .fnb li a {
+    font-size:1.2rem; font-weight:500; 
+}
+footer .f_top .fnb li:last-child {margin-right:0;}
+footer .f_top .fnb_right {
+    margin-right:20px;
+    float:right;
+}
+footer .f_top .fnb_right li {
+    border:1px solid #aaa; float:left;
+    margin-right:10px; 
+}
+footer .f_top .fnb_right li:last-child {margin-right:0;}
+footer .f_top .fnb_right li a {
+    padding:10px 20px; 
+    font-size:1.2rem; letter-spacing:-0.02em; font-weight:500;
+    display:block;
+}
+/* f-btm */
+footer .f_btm {padding:70px 20px; width:1200px; margin:0 auto;}
+footer .f_btm address {
+    font-size:1.2rem; letter-spacing:-0.02em; line-height:40px;
+    margin-bottom:50px;
+}
+footer .f_btm p {font-size:1.2rem; letter-spacing:-0.02em;}

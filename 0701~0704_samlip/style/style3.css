@@ -1,0 +1,47 @@
+/* header */
+header {
+    background-color:pink;
+    width:1200px; height:92px; margin:0 auto;
+}
+header h1 {
+    width:60px; height:70px; margin:11px 0 0 20px;
+    float:left;
+}
+header h1 a {}
+header h1 a img {width:100%;}
+/* nav */
+header nav {
+    background-color:orange;
+    float:left; margin:39px 0 0 245px;
+}
+header nav ul {}
+header nav ul li {float:left;}
+header nav ul li a {
+    font-size:1.2rem; padding-right:40px;
+}
+header nav ul li:last-child a {padding-right:0;}
+header nav ul .active a {color:#36B4E5;}
+/* lnb */
+header .lnb {
+    float:right;
+    background-color:tan;
+    margin:39px 20px 0 0;
+}
+header .lnb li {float:left; margin-right:9px;}
+header .lnb li:last-child {margin-right:0;}
+header .lnb li a {
+    font-size:1.2rem;
+}
+header .lnb li span {
+    width:1px; height:13px; background-color:#aaa;
+    display:block; margin-top:3px;
+}
+/* header 끝 */
+/* main 시작 */
+main {}
+main .breadcrumbs_bg {background-color:#f1f1f1;}
+main .breadcrumbs_bg #breadcrumbs {
+    width:1200px; margin:0 auto;
+} 
+main .breadcrumbs_bg #breadcrumbs a {float:left; margin:;}
+main .breadcrumbs_bg #breadcrumbs em {float:right;}
