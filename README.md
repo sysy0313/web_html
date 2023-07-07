@@ -87,3 +87,7 @@ class=”active” , 태그:last-child,  태그:nth-child(숫자), 글자없는 
 ```
 서울시청홈페이지 클론코딩-html 태그 및 css선택자 작성, 태그속성title
 ```
+# 23/07/07
+```
+그룹선택자 검색창 css ,calc계산법, cursor:pointer; position (relative, absolute, fixed)
+```
