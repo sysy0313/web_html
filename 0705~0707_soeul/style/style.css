@@ -1,0 +1,334 @@
+/* popup */
+#top {
+    position:fixed; right:50px; bottom:50px;
+    width:34px; height:34px;
+}
+#top img {width:100%;}
+/* all layout */
+header,
+main .visual,
+main>.service,
+main .bnr_bg .bnr,
+main .board,
+main .info,
+main .news,
+footer {
+    background-color:antiquewhite;
+    width:1152px; margin:0 auto;
+}
+/* header */
+header {
+    }
+/* header-h top */
+header #h_top {
+    background-color:pink;
+    height:48px; 
+}
+header #h_top .left {
+    background-color:skyblue;
+    float:left;  
+}
+header #h_top .left h1 {
+    float:left; 
+    width:110px; height:28px; padding-top:10px;
+}
+header #h_top .left h1 a {}
+header #h_top .left h1 a img {
+    width:100%;}
+header #h_top .left nav {
+    float:left;}
+header #h_top .left nav ul {}
+header #h_top .left nav ul li {
+    float:left; margin-left:20px;
+}
+header #h_top .left nav ul li a {
+    line-height:48px; letter-spacing:-0.02em;}
+header #h_top .right {
+    background-color:coral;
+    float:right;
+}
+header #h_top .right li {
+    float:left; margin-left:20px;
+}
+header #h_top .right li:first-child {margin-left:0;}
+header #h_top .right li a {
+    line-height:48px; letter-spacing:-0.02em;
+}
+/* header-h btm */
+header #h_btm {
+    background-color:lemonchiffon;
+    height:119px;
+}
+header #h_btm h1 {
+    background-color:pink;
+    width:150px; height:28px; float:left; margin-top:45px;
+}
+header #h_btm h1 a {}
+header #h_btm h1 a img {width:100%;}
+header #h_btm #search_frm {
+    float:left;
+    margin:36px 0 0 230px;
+    border:2px solid #1E6CB3;
+    width:369px; height:46px;
+    background-color:orange;   
+    padding:10px 20px 0 ;
+}
+header #h_btm #search_frm fieldset {
+    border:0;
+}
+header #h_btm #search_frm fieldset legend {
+    display:none;
+}
+header #h_btm #search_frm fieldset input {
+    float:left; 
+    width:calc(100% - 20px);
+}
+header #h_btm #search_frm fieldset input::placeholder {
+    letter-spacing:-0.02em; color:#1E6CB3;
+}
+
+header #h_btm #search_frm fieldset #search_btn {
+    float:right;
+    border:0; background:none;
+    width:20px; height:20px; 
+    cursor:pointer;
+}
+header #h_btm #search_frm fieldset #search_btn img {
+    width:100%;
+}
+header #h_btm .right {
+    background-color:plum;
+    float:right; margin-top:13px;
+}
+header #h_btm .right #lang_frm {
+    text-align:right;
+    margin-bottom:10px;
+}
+header #h_btm .right #lang_frm fieldset {
+    border:none;
+}
+header #h_btm .right #lang_frm fieldset legend {
+    display:none;
+}
+header #h_btm .right #lang_frm fieldset select {
+    font-size:0.833rem; letter-spacing:-0.02em;
+    margin-right:10px; width:91px; padding:3px 0;
+    border:1px solid #1E6CB3;
+} 
+header #h_btm .right #lang_frm fieldset select option {
+    font-size:0.833rem; letter-spacing:-0.02em;
+    
+}
+header #h_btm .right #lang_frm fieldset #lang_btn { 
+    width:30px; height:29px;
+    background-color:#1E6CB3; border:0; color:#fff; 
+    cursor:pointer;
+    font-size:-0.833rem; letter-spacing:-0.02em;
+}
+header #h_btm .right .weather {
+}
+header #h_btm .right .weather .current_weather {margin-bottom:10px;}
+header #h_btm .right .weather .current_weather em {
+    font-size:2.074rem; font-weight:500; letter-spacing:-0.02em;
+}
+header #h_btm .right .weather .current_dust {
+    font-size:0.833rem; letter-spacing:-0.02em;
+}
+/* main */
+main {}
+/* main-1 1광고배너 */
+main .visual {
+    background-color:palevioletred;
+    height:350px; overflow:hidden;
+}
+main .visual .left {
+    background-color:salmon;
+    width:770px; height:350px;
+    float:left;
+    position:relative;/* 겹쳐지는부모 기준이 되려고 다른 속성을 안 넣음 */
+}
+main .visual .left img {
+    width:100%;
+    
+}
+main .visual .left .close {
+    position:absolute;/* 겹치는대상 */
+    bottom:10px; right:10px;
+    padding:10px; background-color:#1E6CB3;
+    border-radius:5px;
+    color:#fff; letter-spacing:-0.02em; font-weight:500;
+}
+main .visual .right {
+    background-color:lightgreen;
+    width:360px; float:right;
+}
+main .visual .right .covid {
+    width:360px; height:230px;
+    display:block;
+    position:relative;
+    margin-bottom:10px;;
+}
+main .visual .right .covid span {
+    background-color:coral; position:absolute;
+    color:#fff; letter-spacing:-0.02em; font-weight:500;
+}
+main .visual .right .covid .date {top:23px; right:21px;}
+main .visual .right .covid .data {}
+main .visual .right .covid .data1 {top: 82px; left:77px;}
+main .visual .right .covid .data2 {top:82px; right:86px;}
+main .visual .right .covid .data3 {top:157px; left:57px;}
+main .visual .right .covid .data4 {top:157px; left:188px;}
+main .visual .right .covid .data5 {top:157px; right:53px;}
+main .visual .right .covid img {width:100%;}
+main .visual .right .traffic {
+    display:block; width:360px; height:110px;    
+}
+main .visual .right .traffic img {
+    width:100%;
+}
+/* 주요서비스~새소식 제목 디자인그룹 */
+/* main .service .title {}
+main .service .title h2 {}
+main .service .title .site {}
+main .board .event .title {}
+main .board .event .title h2 {}
+main .board .event .title .more {}
+main .board .festival .title {}
+main .board .festival .title h2 {}
+main .board .festival .title .more {}
+main .board .service .title {}
+main .board .service .title h2 {}
+main .info .title {}
+main .info .title h2 {}
+main .news .title {}
+main .news .title h2 {}
+main .news .title .more {} */
+/* 정리 */
+main section .title {
+    background-color:powderblue;
+    padding:50px 0 10px; border-bottom:1px solid #aaa;
+    overflow:hidden;
+}
+main section .title h2 {
+    float:left;
+    font-size:1.44rem; font-weight:500;
+}
+main section .title .more {
+    float:right;
+    display:block;
+    padding:8px; border:1px solid #aaa;
+}
+main section .title .site {
+    float:right;
+    display:block;
+    padding:8px; border:1px solid #aaa;
+}
+/* main-1 2주요서비스 */
+main .service {
+}
+main .service .title {
+}
+main .service .title h2 {}
+main .service .title .site {}
+main .service .contents {
+    padding:20px 5px 50px;
+    overflow:hidden;
+}
+main .service .contents a {
+    float:left; margin-right:30px;
+}
+main .service .contents a:last-child {margin-right:0;}
+main .service .contents a img {
+    width:60px; height:60px;
+    display:block; margin:0 auto;
+    margin-bottom:15px;
+}
+main .service .contents a span {
+    display:block; text-align:center; font-size:0.833rem; letter-spacing:-0.02em;
+}
+/* main-1 3배너 */
+main .bnr_bg {
+    background-color:#EFF4F8;
+    height:150px;
+}
+main .bnr_bg .bnr {}
+main .bnr_bg .bnr a {
+    width:384px; height:70px; display:block;
+    float:left; margin-top:40px;}
+main .bnr_bg .bnr a img {width:100%;}
+/* 정리 */
+main .board .title {width:369px;}
+main .board .contents {width:369px;}
+
+/* main-1 4게시판 */
+main .board {
+    background-color:pink;
+    overflow:hidden;
+}
+main .board .event {
+    float:left;
+}
+main .board .event .title {}
+main .board .event .title h2 {}
+main .board .event .title .more {}
+main .board .event .contents {}
+main .board .event .contents a {}
+main .board .event .contents a span {}
+main .board .event .contents a .administrative {}
+main .board .event .contents a .environment {}
+main .board .event .contents a .welfare {}
+main .board .event .contents a .housing {}
+main .board .event .contents a .culture {}
+main .board .festival {
+    float:left;
+}
+main .board .festival .title {}
+main .board .festival .title h2 {}
+main .board .festival .title .more {}
+main .board .festival .contents {}
+main .board .festival .contents a {}
+main .board .festival .contents a span {}
+main .board .festival .contents a .environment {}
+main .board .festival .contents a .economy {}
+main .board .festival .contents a .culture {}
+main .board .service {
+    float:left;
+}
+main .board .service .title {height:83px;}
+main .board .service .title h2 {}
+main .board .service .contents {}
+main .board .service .contents a {}
+/* main-1 5분야정보*/
+main .info {}
+main .info .title {}
+main .info .title h2 {}
+main .info .contents {}
+main .info .contents a {}
+main .info .contents a img {}
+main .info .contents a span {}
+/* main-1 6새소식*/
+main .news {}
+main .news .title {}
+main .news .title h2 {}
+main .news .title .more {}
+main .news .contents {}
+main .news .contents a {}
+main .news .contents a img {}
+main .news .contents a span {}
+/* footer-f top*/
+footer {}
+footer .f_top {}
+footer .f_top .left {}
+footer .f_top .left a {}
+footer .f_top .right {}
+footer .f_top .right a {}
+/* footer-f btm*/
+footer .f_btm {}
+footer .f_btm .left {}
+footer .f_btm .left p {}
+footer .f_btm .left p img {}
+footer .f_btm .left address {}
+footer .f_btm .left address a {}
+footer .f_btm .right {}
+footer .f_btm .right a {}
+footer .f_btm .right a img {}
