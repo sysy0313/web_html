@@ -91,3 +91,7 @@ class=”active” , 태그:last-child,  태그:nth-child(숫자), 글자없는 
 ```
 그룹선택자 검색창 css ,calc계산법, cursor:pointer; position (relative, absolute, fixed)
 ```
+# 23/07/10
+```
+Emmet , background, position, 폰트어썸, text-indent(화면밖 글자 내보내기)
+```
