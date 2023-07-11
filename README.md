@@ -95,3 +95,7 @@ class=”active” , 태그:last-child,  태그:nth-child(숫자), 글자없는 
 ```
 Emmet , background, position, 폰트어썸, text-indent(화면밖 글자 내보내기)
 ```
+# 23/07/11
+```
+background통합속성, hover, flex레이아웃
+```
