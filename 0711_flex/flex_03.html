@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex_03</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./style/reset.css">
+    <style>
+        #product {
+            width:984px; margin:0 auto;
+            border:5px solid salmon;
+            display:flex;
+            flex-flow:row nowrap;
+            justify-content:space-between;
+            align-items:flex-start;
+        }
+        #product .item {
+            background-color:lemonchiffon;
+            flex:1;
+            margin-right:15px;
+        }
+        #product .item:nth-child(5n) {margin-right:0;}
+        #product .item .likeFrm {}
+        #product .item .likeFrm fieldset {}
+        #product .item .likeFrm fieldset .like {}
+        #product .item a {
+        }
+        #product .item a > * {margin-top:10px;}
+        #product .item a .bk_cover {border:1px solid #ccc;}
+        #product .item a .bk_cover img {width:100%;}
+        #product .item a h1 {white-space:nowrap; font-weight:700;}
+        #product .item a .author {
+        }
+        #product .item a > .price {}
+        #product .item a .price .percent {color:#4dac27;}
+        #product .item a .price .price {font-weight:700;}
+        #product .item a .price .point {}
+        #product .item a .btm {
+            display:flex;
+            flex-flow:row nowrap;
+            justify-content:space-between;
+            align-items:flex-start;
+        }
+        #product .item a .btm .review {}
+        #product .item a .btm .review .fa-clover {color:#4dac27;}
+        #product .item a .btm .wish {}
+        #product .item a .btm .wish .fa-heart {color:#aaa;}
+    </style>
+</head>
+<body>
+    <!-- 교보문고 학년별 개념/문제 상품영역 -->
+    <div id="product">
+        <div class="item">
+            <form action="#" method="get" class="likeFrm">
+                <fieldset>
+                    <legend class="skip">관심상품</legend>
+                    <input type="checkbox" name="like" class="like">
+                </fieldset>
+            </form>
+            <a href="#">
+                <p class="bk_cover"><img src="./images/image.jpg" alt="사회리더초등6-2"></p>
+                <h1>사회리더 초등6-2(2023)</h1>
+                <p class="author">천재교육편집부</p>
+                <p class="price">
+                    <span class="percent">10%</span>
+                    <span class="price">12,600원</span>
+                    <span class="point">(700p)</span>
+                </p>
+                <div class="btm">
+                    <p class="review"><i class="fa-solid fa-clover"></i> 0.0</p>
+                    <p class="wish"><i class="fa-regular fa-heart" title="관심등록"></i></p>
+                </div>
+            </a>
+        </div>
+        <div class="item">
+            <form action="#" method="get" class="likeFrm">
+                <fieldset>
+                    <legend class="skip">관심상품</legend>
+                    <input type="checkbox" name="like" class="like">
+                </fieldset>
+            </form>
+            <a href="#">
+                <p class="bk_cover"><img src="./images/image.jpg" alt="사회리더초등6-2"></p>
+                <h1>사회리더 초등6-2(2023)</h1>
+                <p class="author">천재교육편집부</p>
+                <p class="price">
+                    <span class="percent">10%</span>
+                    <span class="price">12,600원</span>
+                    <span class="point">(700p)</span>
+                </p>
+                <div class="btm">
+                    <p class="review"><i class="fa-solid fa-clover"></i> 0.0</p>
+                    <p class="wish"><i class="fa-regular fa-heart" title="관심등록"></i></p>
+                </div>
+            </a>
+        </div>
+        <div class="item">
+            <form action="#" method="get" class="likeFrm">
+                <fieldset>
+                    <legend class="skip">관심상품</legend>
+                    <input type="checkbox" name="like" class="like">
+                </fieldset>
+            </form>
+            <a href="#">
+                <p class="bk_cover"><img src="./images/image.jpg" alt="사회리더초등6-2"></p>
+                <h1>사회리더 초등6-2(2023)</h1>
+                <p class="author">천재교육편집부</p>
+                <p class="price">
+                    <span class="percent">10%</span>
+                    <span class="price">12,600원</span>
+                    <span class="point">(700p)</span>
+                </p>
+                <div class="btm">
+                    <p class="review"><i class="fa-solid fa-clover"></i> 0.0</p>
+                    <p class="wish"><i class="fa-regular fa-heart" title="관심등록"></i></p>
+                </div>
+            </a>
+        </div>
+        <div class="item">
+            <form action="#" method="get" class="likeFrm">
+                <fieldset>
+                    <legend class="skip">관심상품</legend>
+                    <input type="checkbox" name="like" class="like">
+                </fieldset>
+            </form>
+            <a href="#">
+                <p class="bk_cover"><img src="./images/image.jpg" alt="사회리더초등6-2"></p>
+                <h1>사회리더 초등6-2(2023)</h1>
+                <p class="author">천재교육편집부</p>
+                <p class="price">
+                    <span class="percent">10%</span>
+                    <span class="price">12,600원</span>
+                    <span class="point">(700p)</span>
+                </p>
+                <div class="btm">
+                    <p class="review"><i class="fa-solid fa-clover"></i> 0.0</p>
+                    <p class="wish"><i class="fa-regular fa-heart" title="관심등록"></i></p>
+                </div>
+            </a>
+        </div>
+        <div class="item">
+            <form action="#" method="get" class="likeFrm">
+                <fieldset>
+                    <legend class="skip">관심상품</legend>
+                    <input type="checkbox" name="like" class="like">
+                </fieldset>
+            </form>
+            <a href="#">
+                <p class="bk_cover"><img src="./images/image.jpg" alt="사회리더초등6-2"></p>
+                <h1>사회리더 초등6-2(2023)</h1>
+                <p class="author">천재교육편집부</p>
+                <p class="price">
+                    <span class="percent">10%</span>
+                    <span class="price">12,600원</span>
+                    <span class="point">(700p)</span>
+                </p>
+                <div class="btm">
+                    <p class="review"><i class="fa-solid fa-clover"></i> 0.0</p>
+                    <p class="wish"><i class="fa-regular fa-heart" title="관심등록"></i></p>
+                </div>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
