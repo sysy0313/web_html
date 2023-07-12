@@ -1,0 +1,126 @@
+/* rgb(95 3 128) 1050px*/
+/* all layout */
+.ad_bg .ad,
+header {
+    background-color:lemonchiffon; width:1050px; margin:0 auto;
+}
+/* header-sprite 공통그룹선택자 */
+header .h_top .logo h1,
+header .h_top #searchFrm fieldset #searchBtn,
+header .h_top .lnb .map,
+header .h_top .lnb .like,
+header .h_top .lnb .cart,
+header .h_btm .all_nav .menu {
+    background:palegreen url(../images/kurly_img/icon_set.png);
+    width:36px; height:36px; display:inline-block;
+    text-indent:-9999px;
+}
+/* 각각 */
+header .h_top .logo h1 {background-position:0 -158px; width:82px; height:42px;}
+header .h_top #searchFrm fieldset #searchBtn {background-position:0 -122px;}
+header .h_top .lnb .map {background-position:0 -86px;}
+header .h_top .lnb .like {background-position:0 -50px;}
+header .h_top .lnb .cart {background-position:0 -14px;}
+header .h_btm .all_nav .menu {background-position:0 0; width:16px; height:14px;}
+/* 광고 */
+.ad_bg {background:rgb(95 3 128);}
+.ad_bg .ad {
+    height:42px;
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+}
+.ad_bg .ad .adver {}
+.ad_bg .ad .adver em {}
+.ad_bg .ad .close {}
+.ad_bg .ad .close .fa-xmark {
+    position:absolute; right:0;
+}
+/* 정렬과 다르게 떨어져나온 요소는 position을 따로 설정해준다.
+position:absolute는 부모를 기준으로 하는데, 부모 설정을 하지 않으면 부모를 body로 인식한다.
+부모에게는 position:relative;
+*/
+/* 헤더 */
+header {}
+header .user_lnb {
+    background-color:skyblue;
+    height:35px;
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:flex-end;
+    align-items:center;
+}
+header .user_lnb a {margin-left:10px;}
+header .user_lnb .join {}
+header .user_lnb .login {}
+header .user_lnb .customer_service {}
+header .h_top {
+    background-color:pink;
+    height:63px;
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:space-between;
+    align-items:center;
+}
+header .h_top .logo {
+    display:flex;
+    flex-flow:row nowrap;
+    align-items:center;
+}
+header .h_top .logo > * {margin-right:10px;}
+header .h_top .logo h1 {}
+header .h_top .logo .market {
+    font-size:1.2rem; font-weight:700;
+}
+header .h_top .logo .market::after {
+    content:''; margin-left:10px;
+    background:black; width:1px; height:10px; display:inline-block;
+}
+header .h_top .logo .beauty {
+    font-size:1.2rem; font-weight:700;
+}
+header .h_top #searchFrm {
+    border:1px solid rgb(95 3 128);
+    border-radius:5px; width:350px; height:40px;
+    background:#fff; 
+}
+header .h_top #searchFrm fieldset {
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 5px;
+}
+header .h_top #searchFrm fieldset #search_text {
+    width:calc(100% - 36px);
+}
+header .h_top #searchFrm fieldset #search_text::placeholder {
+    font-size:0.9rem; letter-spacing:-0.02em;}
+header .h_top #searchFrm fieldset #searchBtn {}
+header .h_top .lnb {}
+header .h_top .lnb a {margin-left:10px;}
+header .h_top .lnb .map {}
+header .h_top .lnb .like {}
+header .h_top .lnb .cart {}
+header .h_btm {
+    background-color:thistle;
+    height:56px;
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:space-between;
+    align-items:center;
+}
+header .h_btm .all_nav {}
+header .h_btm .all_nav .span {}
+header .h_btm .all_nav .menu {}
+header .h_btm nav {}
+header .h_btm nav a {margin-right:70px;}
+header .h_btm .delivery_info {
+    margin-right:10px;
+    display:inline-block; border:1px solid #aaa; padding:10px;
+    border-radius:20px; 
+}
+header .h_btm .delivery_info em {}
+header .h_btm .delevery_info span {}
