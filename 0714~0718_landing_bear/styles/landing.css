@@ -1,0 +1,273 @@
+/* 공통 */
+section .sponsor_btn {
+    padding:30px 70px;
+    text-align:center;
+    border-radius:50px;
+    background: linear-gradient(90deg, rgba(255,147,0,1) 0%, rgba(255,114,0,1) 100%);
+    margin-bottom:41px;
+    display:flex; flex-flow:row nowrap; align-items:center;
+}
+section .sponsor_btn span {
+    font-size:1.777rem; letter-spacing:-0.04em; font-weight:500; color:#fff; margin-right:10px;}
+section .sponsor_btn img {
+    width:20px; height:20px;
+}
+/* 1. title */
+.title_bg {
+    background:url(../images/background/bg1.png) no-repeat fixed center 70%;
+    background-size:cover;
+    position:relative;
+}
+.title_bg::after {
+    content:''; display:block; height:800px; width:100%; position:absolute; left:0; top:0;
+    background: linear-gradient(180deg, rgba(255,255,255,0.3) 0%, rgba(0,0,0,0.9) 100%);
+    z-index:90;
+    /* absolute 적용시 기본 block의 w100% inline처럼 변한다. */
+}
+.title_bg #snow {
+    position:absolute; top:0; left:0; 
+    z-index:200; width:100%; height:800px;
+}
+.title_bg .main_title {
+    /* background:rgba(255,255,0,0.5); */
+    height:800px; width:1200px; margin:0 auto;
+    display:flex; flex-flow:column nowrap; align-items:center;
+    position:relative;
+    z-index:100; 
+}
+.title_bg .main_title .logo {
+    width:50px; height:50px;
+    align-self:flex-start;
+}
+.title_bg .main_title .logo img {}
+.title_bg .main_title h1 {
+    text-align:center; font-size:3.157rem; line-height:90px; font-weight:500;
+    margin-top:159px; color:#fff;
+    margin-bottom:41px;
+}
+.title_bg .main_title h1 em {
+    font-size:3.157rem; font-weight:700; color:#fff;
+}
+.title_bg .main_title .sponsor_btn {
+    padding:30px 70px;
+    text-align:center;
+    border-radius:50px;
+    background: linear-gradient(90deg, rgba(255,147,0,1) 0%, rgba(255,114,0,1) 100%);
+    margin-bottom:41px;
+    display:flex; flex-flow:row nowrap; align-items:center;
+}
+.title_bg .main_title .sponsor_btn span {
+    font-size:1.777rem; letter-spacing:-0.04em; font-weight:500; color:#fff; margin-right:10px;}
+.title_bg .main_title .sponsor_btn img {
+    width:20px; height:20px;
+}
+.title_bg .main_title .sponsor_qna {
+    padding:15px 20px; display:inline-block;
+    border-radius:30px; background:#222; align-self:flex-end;
+    display:flex; flex-flow:row nowrap; align-items:center;
+}
+.title_bg .main_title .sponsor_qna span {
+    font-size:1.333rem; letter-spacing:-0.04em; color:#fff;
+    margin:0 10px;
+    
+}
+.title_bg .main_title .sponsor_qna img {width:20px; height:20px;}
+/* 2. quiz */
+.quiz_bg {
+    background:url(../images/background/quiz_bg.png) no-repeat fixed center; 
+    background-size:cover;
+}
+.quiz_bg .quiz {
+    width:1200px; margin:0 auto; padding:100px 0;
+    display:flex; flex-flow:row nowrap; justify-content:space-between; align-items:center;
+
+}
+.quiz_bg .quiz .left {
+    display:flex; flex-flow:column nowrap; align-items:center;
+    width:508px;
+}
+.quiz_bg .quiz .left h2 {
+    font-size:3.157rem; letter-spacing:-0.04em; color:#fff; font-weight:700;
+    text-align:center;
+    margin-bottom:35px;
+}
+.quiz_bg .quiz .left h3 {
+    font-size:1.333rem; letter-spacing:-0.04em; color:#fff; font-weight:500;
+    margin-bottom:35px;
+}
+.quiz_bg .quiz .left #quizFrm {}
+.quiz_bg .quiz .left #quizFrm fieldset {}
+.quiz_bg .quiz .left #quizFrm fieldset ul {
+    margin-bottom:35px;
+}
+.quiz_bg .quiz .left #quizFrm fieldset ul li {margin-bottom:20px;}
+.quiz_bg .quiz .left #quizFrm fieldset ul li:last-child {margin-bottom:0;}
+.quiz_bg .quiz .left #quizFrm fieldset ul li label {}
+.quiz_bg .quiz .left #quizFrm fieldset ul li label input {
+    appearance:none;/*  form input 요소 숨기기 */
+}
+.quiz_bg .quiz .left #quizFrm fieldset ul li label span {
+    background:url(../images/icon/quiz_un_check.png) no-repeat 0% 60%; padding-left:34px;
+    font-size:1.333rem; letter-spacing:-0.04em; 
+    color:#fff;
+}
+/* 상태선택자 (radio 가 check될 경우 span의 이미지 변경하기 */
+.quiz_bg .quiz .left #quizFrm fieldset ul li label input:checked+span {background:url(../images/icon/quiz_check.png) no-repeat 0% 60%;}
+
+.quiz_bg .quiz .left #quizFrm fieldset #quizBtn {
+    padding:15px 170px; background:#222; width:508px;
+    border-radius:30px; color:#fff; font-size:1.333rem; letter-spacing:-0.04em;
+}
+.quiz_bg .quiz .right {
+    display:flex; flex-flow:column nowrap; align-items:center; width:550px;
+}
+.quiz_bg .quiz .right h2 {
+    width:100%;
+    background:#ff7200; padding:20px 0;
+    display:flex; flex-flow:row nowrap; justify-content:center; align-items:center;
+    border-top-left-radius:20px; border-top-right-radius:20px;
+}
+.quiz_bg .quiz .right h2 img {
+    margin-right:20px; width:29px; height:29px;
+}
+.quiz_bg .quiz .right h2 span {
+    font-size:1.333rem; color:#fff; letter-spacing:-0.04em; font-weight:700;
+}
+.quiz_bg .quiz .right .contents {
+    width:100%;
+    background:#fff; padding:70px 0;
+    text-align:center;
+    border-bottom-left-radius:20px; border-bottom-right-radius:20px; 
+    margin-bottom:30px;
+}
+.quiz_bg .quiz .right .contents em {
+    font-size:5rem; font-weight:700; color:#ff7200; letter-spacing:-0.043em;
+}
+.quiz_bg .quiz .right .contents span {font-size:3.157em; font-weight:700; letter-spacing:-0.04em;}
+.quiz_bg .quiz .right .contents span:nth-child(2) {
+    color:#ff7200;
+}
+.quiz_bg .quiz .right .contents span:nth-child(3) {}
+.quiz_bg .quiz .right .update {
+    color:#fff; 
+}
+/* 3.youtube */
+.youtube_bg {
+    background:url(../images/background/video_bg.png) no-repeat fixed center;
+    background-size:cover;
+    padding:100px 0;
+    display:flex; flex-flow:column nowrap; align-items:center;
+}
+.youtube_bg > * {margin-bottom:50px;}
+.youtube_bg h2 {
+    font-size:3.157rem; font-weight:700; text-align:center; line-height:90px;
+}
+.youtube_bg iframe {
+    width:800px; height:500px;
+}
+.youtube_bg .sonsor_btn {}
+.youtube_bg .sonsor_btn span {}
+.youtube_bg .sonsor_btn img {}
+/* 4.50%감소 */
+.reduction_bg {
+    background:url(../images/background/50_bg.png) no-repeat;
+    background-size:cover;
+}
+.reduction_bg .reduction {
+    width:1200px; margin:0 auto; padding:100px 0;
+}
+.reduction_bg .reduction h2 {
+    font-size:3.157rem; font-weight:700; color:#fff; line-height:90px;
+    margin-bottom:50px;
+}
+.reduction_bg .reduction h2 em {
+    font-size:3.157rem; font-weight:700; color:#000; background:#fff; padding:-10px;
+}
+.reduction_bg .reduction p {
+    font-size:1.777rem; line-height:50px; color:#fff;
+    margin-bottom:50px;
+}
+.reduction_bg .reduction  p img{
+    width:1200px; height:600px;
+}
+/* 5.28조,27cm,332만명 */
+.warming_bg {
+    background:#f1f1f1;
+}
+.warming_bg .warming {
+    width:1200px; margin:0 auto; padding:100px 0;
+}
+.warming_bg .warming h2 {
+    font-size:3.157rem; font-weight:700; margin-bottom:80px; text-align:center;
+}
+.warming_bg .warming .contents {
+    font-size:1.7rem; text-align:center; letter-spacing:-0.02em; line-height:51px;
+    margin-bottom:80px;
+}
+.warming_bg .warming ul {
+    display:flex; flex-flow:row nowrap; justify-content:space-between;
+}
+.warming_bg .warming ul li {
+    background:yellow;
+    width:calc(33.33% - 40px / 3);
+    margin-right:20px;
+}
+.warming_bg .warming ul li:last-child {margin-right:0;}
+.warming_bg .warming ul li .top {
+    height:300px; background-position:center 75%; background-size:cover;
+}
+.warming_bg .warming ul li:nth-child(1) .top {
+    background-image:url(../images/background/28.png);
+}
+.warming_bg .warming ul li:nth-child(2) .top {
+    background-image:url(../images/background/27.png);
+}
+.warming_bg .warming ul li:nth-child(3) .top {
+    background-image:url(../images/background/28.png);
+}
+.warming_bg .warming ul li .top h3{
+    font-size:3.157rem; font-weight:700; text-align:center; color:#fff; padding-top:40px; margin-bottom:30px;
+}
+.warming_bg .warming ul li .top p{
+    font-size:1.333rem; text-align:center; color:#fff;
+}
+.warming_bg .warming ul li .list_contents {
+    padding:30px 10px; height:223px; background:#fff; text-align:center;
+    line-height:37px;
+    display:flex; flex-flow:column nowrap;justify-content:center;
+}
+/* 6.지구위기 */
+.earth_bg {
+    background:url(../images/background/50_bg.png) no-repeat;
+    background-size:cover;
+}
+.earth_bg .earth {
+    width:1200px; margin:0 auto; padding:100px 0;
+}
+.earth_bg .earth h2 {
+    font-size:3.157rem; color:#fff; line-height:90px; font-weight:700;
+    margin-bottom:50px;
+}
+.earth_bg .earth h2 em {
+    font-size:3.157rem; color:#000; background:#fff; font-weight:700;
+}
+.earth_bg .earth p {
+    font-size:1.777rem; color:#fff; line-height:51px;
+    margin-bottom:50px;
+}
+.earth_bg .earth p img {width:1200px; height:600px;}
+/* wwf */
+.wwf_bg {
+    background:url(../images/background/wwf.jpg) no-repeat;
+    background-size:cover;
+
+}
+.wwf_bg .wwf {
+    width:1200px; margin:0 auto; padding:100px 0;
+}
+.wwf_bg .wwf h2 {
+    font-size:3.157rem; font-weight:700; text-align:center;
+}
+.wwf_bg .wwf p{
+    font-size:1.777rem; line-height:51px; text-align:center; 
+}
