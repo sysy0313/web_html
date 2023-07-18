@@ -107,3 +107,7 @@ background통합속성, hover, flex레이아웃
 ```
 반응형 @media, max-width, min-width, vh(viewport height), vw (viewport width), 가변형 너비, 랜딩페이지
 ```
+#23/07/18
+```
+background-size:cover; 배경에 그라데이션 넣기 (가상선택자, position), z-index, input 배경넣기, background-속성활용하기
+```
